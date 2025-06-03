@@ -34,7 +34,7 @@ def notify_slack(team_name, config_file):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: python notify_slack.py <team_name> <config_file>")
+        print("Usage: python who-is-it-today.py <team_name> <config_file>")
         sys.exit(1)
     
     team_name = sys.argv[1]
