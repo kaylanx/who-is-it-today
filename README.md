@@ -23,7 +23,7 @@ Add GitHub Secrets (if needed for webhook security):
 
 Not required for public incoming webhooks, but you can store the config path or team name as secrets.
 
-## ⚙️ Congiguration
+## ⚙️ Configuration
 
 Example teams_config.yml:
 
