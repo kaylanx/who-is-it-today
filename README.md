@@ -33,12 +33,15 @@ engineering:
     - U12345678
     - U23456789
   webhook_url: https://hooks.slack.com/services/ENG/WEBHOOK/URL
+  message: "Hey {user}, you're up this week for the engineering update!"
 
 design:
   slack_users:
     - U34567890
     - U45678901
   webhook_url: https://hooks.slack.com/services/DESIGN/WEBHOOK/URL
+  message: "🎨 {user}, it's your turn to share design progress!"
+
 ```
 
 ## 📅 Usage
